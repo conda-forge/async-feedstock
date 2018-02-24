@@ -1,6 +1,6 @@
 {% set name = "async" %}
-{% set version = "2.3.0" %}
-{% set sha256 = "1c7cfc6622357e5a65bfa62a05f1e02bda8e64c2d68f4fbc37f53bef630243d6" %}
+{% set version = "2.6.0" %}
+{% set sha256 = "15e8fdc85933c8adbc2f8d775951759318388079d4b5ca1e2db28c75a7b5c2f4" %}
 
 package:
   name: {{ name|lower }}
