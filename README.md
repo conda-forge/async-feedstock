@@ -15,12 +15,15 @@ Async is a utility module which provides straight-forward, powerful functions fo
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/async-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/async-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/async-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/async-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/async/badges/version.svg)](https://anaconda.org/conda-forge/async)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/async/badges/downloads.svg)](https://anaconda.org/conda-forge/async)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-async-green.svg)](https://anaconda.org/conda-forge/async) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/async.svg)](https://anaconda.org/conda-forge/async) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/async.svg)](https://anaconda.org/conda-forge/async) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/async.svg)](https://anaconda.org/conda-forge/async) |
 
 Installing async
 ================
