@@ -1,6 +1,6 @@
 {% set name = "async" %}
-{% set version = "3.1.0" %}
-{% set sha256 = "bd41432df9e1abe60e3ba3efd6cda08f1fe92793917179ba3ea8604f608b6d2d" %}
+{% set version = "3.2.1" %}
+{% set sha256 = "7a009bbe638762a458bb7a46ac62c4b927018347cae3cc599b84143462c2a186" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,20 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g async
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/caolan/async
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Async utilities for node and the browser'
+  summary: Async utilities for node and the browser
   description: |
     Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. 
   doc_url: https://caolan.github.io/async/
